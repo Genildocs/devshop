@@ -18,7 +18,7 @@ export default function NavBar() {
         {/* LEFT */}
         <div className="w-1/3">
           <Link href="/" className="flex items-center gap-3">
-            <FaShoppingCart />
+            <FaShoppingCart className="w-[22px] h-[22px]" />
             <div className="text-2xl tracking-wider">DevShop</div>
           </Link>
         </div>
